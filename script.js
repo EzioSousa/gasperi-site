@@ -47,16 +47,7 @@ if (whatsappBtn) {
   });
 }
 
-// 5. Mostrar/ocultar formulário de contato
-const contato = document.querySelector('.contact-form');
-const toggleBtn = document.createElement('button');
-toggleBtn.textContent = '📩 Mostrar/Ocultar Contato';
-toggleBtn.className = 'toggle-contact';
-contato.before(toggleBtn);
 
-toggleBtn.addEventListener('click', () => {
-  contato.classList.toggle('hidden');
-});
 
 // 6. Simulação de carregamento de conteúdo (como projetos)
 window.addEventListener('load', () => {
